@@ -11,6 +11,37 @@ file (`server.js`) so it's easy to read from top to bottom.
 
 ---
 
+## AI Prompt
+So I am creating a project that handles my To-Do list 
+It saves the task by its title (String) and State (Bool) with an identifier (Int, auto-incrementing) 
+It should be running on Node.js + Express as a Runtime with JavaScript as a language 
+It is a learning project, not a real project, so it won't include a database; it's gonna be In-Memory arrays, with app. type JSON  
+The functions I want to have in the file or the server are: 
+1. GET all Tasks 
+2. Get by ID 
+3. POST  
+    a. new task just by ID; its state set to False 
+4. PUT  
+    a. edit the title  
+    b. edit the state 
+5. Delete 
+add 3 pre-inserted tasks
+handle the empty parameters on the localhost by sending a hello world message
+add a version name by 1.0 by the name "AI Created To-Do API" and a valid Endpoints
+Make sure that all the data that the user will enter satisfies the data type needed and that the data that enters is actually the needed data and nothing is missing, and if so, handle the error gracefully.  
+Make sure that the response code of the server is correct  
+Handle the Bad Requests and write the correct error message  
+Since there is no login, this is a localhost thing, so no Authentication and Authorization  
+Make it a single-file project 
+Add UI: Swagger UI 
+Add some comments around the code that describe it
+Write a ReadMe file so when I post it on GitHub it ia accessable It
+Add some filters so I could only GET the (Not Done) or (Done) tasks
+Make it for Beginner-level
+and write a Full README File telling everything
+
+
+
 ## 📦 Tech Stack
 
 | Layer         | Technology              |
@@ -243,6 +274,10 @@ isn't the point of this exercise — but it would be a great "next step" to
 try after this project!
 
 ---
+
+## Swagger UI
+![Swagger UI AI](../screenshots/swagger-ui-AI.png)
+
 
 ## 📄 License
 

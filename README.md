@@ -74,7 +74,6 @@ Content-Length: 116
 
 ## Swagger UI
 ![Swagger UI](screenshots/swagger-ui.png)
-![Swagger UI AI](screenshots/swagger-ui-AI.png)
 
 ## Notes
 
