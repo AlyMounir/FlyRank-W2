@@ -72,6 +72,10 @@ Content-Length: 116
 [{"id":1,"title":"Task 1","done":false},{"id":2,"title":"Task 2","done":true},{"id":3,"title":"Task 3","done":false}]
 ```
 
+## Swagger UI
+![Swagger UI](screenshots/swagger-ui.png)
+![Swagger UI AI](screenshots/swagger-ui-AI.png)
+
 ## Notes
 
 - Errors are returned as JSON but the field name is not always the same
